@@ -429,3 +429,16 @@ myfamily = {
 }
 print("myfamily =", myfamily)
 print("myfamily[\"child2\"][\"name\"] =", myfamily["child2"]["name"])
+
+
+# RANGE
+# he built-in range() function returns an immutable sequence of numbers, 
+# commonly used for looping a specific number of times
+# range(start, stop, step)
+print("\nRANGE:")
+x = range(1,20,2)
+print(x)
+print("list(x) =", list(x))
+print("x[3] =",x[3])
+print("x[:3] =", x[:3])
+
